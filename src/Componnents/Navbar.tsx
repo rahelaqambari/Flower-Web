@@ -21,11 +21,7 @@ function Navbar() {
                     <li className='py-2 px-3 hover:bg-pink-50 w-full'><a href="NotFound">404 pages</a></li>
                 </ul>
                 </li>
-                <li className='reletev group'><a className='hover:text-[#D83054] flex items-center' href="">News<ChevronDown size={20}/></a>
-                 <ul className='absolute z-50 group-hover:flex transition-all duration-700 hidden mt-0 bg-pink-100 text-black py-5 w-48  flex-col'>
-                    <li className='py-2 px-3 hover:bg-pink-50 w-full'><a href="/News">News</a></li>
-                    <li className='py-2 px-3 hover:bg-pink-50 w-full'><a href="/SengelNews">Singel News</a></li>
-                </ul>
+                <li className='reletev group'><a className='hover:text-[#D83054] flex items-center' href="/News">News</a>
                 </li>
                 <a className='hover:text-[#D83054]' href="/Contact">Contact</a>
         </ul>
@@ -54,7 +50,6 @@ function Navbar() {
                 <li className='reletev group'><a className='hover:text-[#D83054] flex items-center' href="">News<ChevronDown size={20}/></a>
                  <ul className='absolute z-50 group-hover:flex transition-all duration-700 hidden mt-0 bg-pink-100 text-black py-5 w-48  flex-col'>
                     <li className='py-2 px-3 hover:bg-pink-50 w-full'><a href="/News">News</a></li>
-                    <li className='py-2 px-3 hover:bg-pink-50 w-full'><a href="/SengelNews">Singel News</a></li>
                 </ul>
                 </li>
                 <a className='hover:text-[#D83054]' href="/Contact">Contact</a>
