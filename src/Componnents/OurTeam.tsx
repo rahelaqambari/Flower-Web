@@ -37,9 +37,9 @@ function OurTeam() {
   return (
     <div className='w-full h-fit py-24 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-16 items-center justify-center'>
         {Team.map((team,index)=>(
-        <div key={index} className='h-[80vh] w-[400px] relative group'>
+        <div key={index} className='lg:h-[80vh] h-[80vh] w-[400px] lg:w-[400px] md:h-[60vh] md:w-[350px] relative group'>
             <img src={team.Img} className='h-full w-full  transition-all duration-700 ease-linear' alt="" />
-            <div className='w-[320px] h-28 flex flex-col z-30 items-center absolute -bottom-12 right-14 bg-white justify-center shadow-lg shadow-gray-400'>
+            <div className='w-[320px] h-28 flex flex-col z-30 items-center absolute -bottom-12 lg:right-14 right-10 md:right-3 bg-white justify-center shadow-lg shadow-gray-400'>
                 <h1 className='text-3xl font-Headeing'>{team.Name}</h1>
                 <h3 className='text-xl text-[#D83054]'>{team.Job}</h3>
             </div>

@@ -33,7 +33,7 @@ export default function Specialprice() {
         <button className='text-white bg-[#D83054] px-10 py-3 hover:bg-pink-600'>SHOW ALL</button>
             </div>
             {SpecialP.map((price , index)=>(
-                <div className='justify-center items-center grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 '>
+                <div className='justify-center items-center grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 lg:ml-0 md:ml-52 ml-0 '>
             <div key={index} className='flex flex-col justify-center gap-4 items-start lg:h-[90vh] w-[350px] shadow-md shadow-gray-400'>
                 <h2 className='text-3xl font-Headeing px-3 '>{price.h1}</h2>
                 <img src={price.img} alt="" />

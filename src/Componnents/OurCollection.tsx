@@ -3,7 +3,7 @@ import React from 'react'
 
 function OurCollection() {
   return (
-    <div className='h-screen w-full grid grid-cols-3 gap-4 my-5 p-6 items-center justify-center'>
+    <div className='lg:h-screen h-fit w-full grid lg:grid-cols-3 grid-cols-1 gap-4 lg:my-5 my-24 lg:px-6 md:px-24 px-4 items-center justify-center'>
         <div className='flex flex-col gap-4 justify-center p-6 items-start my-auto'>
             <h2 className='text-[#D83054]'>Our Collection</h2>
             <h1 className='text-3xl font-Headeing '>Awesome Flowers</h1>
