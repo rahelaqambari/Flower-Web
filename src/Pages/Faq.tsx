@@ -1,4 +1,4 @@
-import Navbar from '../Componnents/Navbar'
+import Navbar from '@/Componnents/Navbar'
 import Instagram from '../Componnents/Instagram'
 import Footer from '../Componnents/Footer'
 import LatestNews from '@/Componnents/LatestNews'

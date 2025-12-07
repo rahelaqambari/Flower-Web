@@ -1,6 +1,6 @@
-import { div } from "framer-motion/client";
 import { Calendar1Icon, Phone, QuoteIcon } from "lucide-react";
 import { useEffect, useState } from "react";
+// import Search from "./Search";
 
 const API_key ="sk-KYoQ68f356437b43b12624";
 const url= `https://www.perenual.com/api/v2/species-list?key=${API_key}&page=1`;
@@ -35,6 +35,7 @@ function API() {
  
   return (
     <div className="h-fit w-full grid lg:grid-cols-3 grid-cols-1 p-4">
+      {/* <Search /> */}
       <div className="col-span-1 flex flex-col gap-3 p-4 w-full ">
         <div className="w-full md:h-[80vh] h-[100vh] flex flex-col gap-4 shadow-md shadow-gray-400 p-6">
           <h1 className="text-3xl font-semibold font-serif">Recent Post</h1>

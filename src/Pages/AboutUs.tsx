@@ -1,4 +1,4 @@
-import Navbar from '../Componnents/Navbar'
+import Navbar from '@/Componnents/Navbar'
 import Abouthero from '../Componnents/Abouthero'
 import Aboutflotrist from '../Componnents/Aboutflotrist'
 import Aboutstory from '../Componnents/Aboutstory'

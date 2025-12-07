@@ -1,9 +1,8 @@
-import React from 'react'
 
 function NotFoud() {
   return (
     <div className='h-screen w-full flex flex-col text-white justify-center items-start p-12 bg-no-repeat bg-cover bg-center bg-[url(/images/not5.jpg)]'>
-        <div className='flex gap-4 '>
+        <div className='flex gap-4 lg:flex-row flex-col'>
             <h1 className='text-9xl font-Headeing'>404</h1>
             <div className='flex flex-col gap-3 font-Headeing'>
                 <h2 className='text-3xl'>Page Not Found</h2>

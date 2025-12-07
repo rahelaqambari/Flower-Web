@@ -66,7 +66,7 @@ function Testemonial() {
     },
   ]
   return (
-    <div className='lg:h-[70vh] md:h-[47vh] h-[60vh] w-full flex justify-end items-center my-5 lg:px-8 px-0 bg-cover bg-no-repeat bg-center bg-[url(/images/hero6.jpg)] '>
+    <div className='lg:h-[70vh] md:h-[47vh] h-[40vh] w-full flex justify-end items-center my-5 lg:px-8 px-0 bg-cover bg-no-repeat bg-center bg-[url(/images/hero6.jpg)] '>
         <div className='md:w-[600px] w-full h-full md:bg-white bg-black/45 p-6'>
           <Slider {...settings}>
             {Cards.map((items , index)=>(

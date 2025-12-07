@@ -1,5 +1,4 @@
-import React from 'react'
-import Navbar from '../Componnents/Navbar'
+import Navbar from '@/Componnents/Navbar'
 import HeroPro from '../Componnents/HeroPro'
 import Protfoliopost from '../Componnents/Protfoliopost'
 import Instagram from '../Componnents/Instagram'

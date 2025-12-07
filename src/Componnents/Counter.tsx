@@ -24,12 +24,12 @@ function Counter() {
     }, []);
 
     return (
-        <div className='w-full lg:h-[60vh] md:h-[60vh] h-screen bg-cover bg-no-repeat bg-center bg-[url(/images/Not2.jpg)]'>
+        <div className='w-full md:h-[60vh] h-[50vh] bg-cover bg-no-repeat bg-center bg-[url(/images/Not2.jpg)]'>
             <div className='h-full relative w-full font-Headeing justify-center items-center gap-6 flex flex-col bg-black/10 '>
                 <h3 className='text-[#D83054] text-xl'>Interested In An Estimate</h3>
                 <h1 className='text-4xl '>Get Started With Your Free Estimate</h1>
                 <p className='lg:w-[50%] md:w-[50%]  w-full text-center'>Donec feugiat lectus mi, nec scelerisque massa viverrac. Vivamus vestibulum ornare imperdiet. Nam etsagittis diam. Maecenas maximus fringilla viverra etsagittis diam ornare viverrac.</p>
-                <div className='lg:w-[80%] w-full absolute -bottom-12 h-fit py-8 bg-[#D83054] text-white flex justify-between lg:flex-row md:flex-row flex-col px-6 items-center lg:gap-12 md:gap-12 gap-6'>
+                <div className='lg:w-[80%] hidden w-full absolute -bottom-12 h-fit py-8 bg-[#D83054] text-white md:flex justify-between lg:flex-row md:flex-row flex-col px-6 items-center lg:gap-12 md:gap-12 gap-6'>
                     {counts.map((count,index) => (
                         <div key={index} className='flex flex-col justify-center items-center'>
                             <h1 className='text-4xl font-Headeing'>{count} <sup>+</sup></h1>

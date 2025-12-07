@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero2() {
   return (
-    <div className='h-screen w-full bg-no-repeat bg-cover bg-center bg-[url(/images/hero9.jpg)] flex justify-end items-center'>
+    <div className='md:h-screen h-[40vh]  w-full bg-no-repeat bg-cover bg-center bg-[url(/images/hero9.jpg)] flex justify-end items-center'>
         <div className='h-full w-full bg-gradient-to-tl p-6 from-black/90 to-black/30 flex justify-end items-end'>
          <div className=" h-full w-1/2 gap-5 flex justify-end flex-col text-white px-8">
                 <h3 className='text-3xl text-[#D83054]'>Alamanda Rose</h3>
